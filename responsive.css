@@ -1,5 +1,298 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo&display=swap");
+
+@media screen and (max-width: 1210px) {
+  html {
+    font-size: 56.25%;
+  }
+  .offers__list {
+    display: flex;
+    flex-direction: column;
+  }
+  .offer-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .additional_links {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  html {
+    font-size: 50%;
+  }
+
+  .contacts,
+  .search-bar {
+    display: none;
+  }
+
+  .nav__button {
+    display: block;
+  }
+
+  .header__main {
+    padding: 0 5%;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  html {
+    font-size: 43.75%;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  html {
+    font-size: 37.5%;
+  }
+
+  .ad,
+  aside {
+    display: none;
+  }
+
+  .offers-heading {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 1.3rem;
+  }
+
+  .inquiry {
+    flex-direction: column;
+    gap: 3rem;
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 390px) {
-    body {
-        display: none;
-    }
+  .header__main {
+    padding: 5rem 4rem;
+  }
+
+  .logo {
+    width: 28.5rem;
+  }
+
+  .nav__links {
+    overflow: scroll;
+  }
+
+  .nav__links img {
+    width: 2.5rem;
+  }
+
+  .inquiry {
+    flex-direction: column-reverse;
+    margin-bottom: 1.2rem;
+  }
+
+  .inquiry__text {
+    width: 90%;
+  }
+
+  .inquiry__title {
+    display: none;
+  }
+
+  .inquiry__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .filter-button {
+    display: inline-block;
+  }
+
+  .filters {
+    display: none;
+  }
+
+  .inquiry p {
+    font-size: 2rem;
+  }
+
+  .inquiry__cta {
+    width: 90%;
+    padding: 1.8rem;
+
+    font-size: 2.5rem;
+    justify-content: center;
+  }
+
+  .content-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  aside {
+    display: block;
+    width: 90%;
+  }
+
+  .aside-links {
+    flex-direction: row;
+
+    border-top: 1px solid #c1c1c1;
+    border-bottom: 1px solid #c1c1c1;
+
+    padding: 1.8rem 0;
+    margin: 0;
+  }
+
+  .aside-links-responsive {
+    display: block;
+  }
+
+  .aside-links .cta {
+    font-size: 2.5rem;
+    padding: 2.7rem 4rem;
+  }
+
+  .aside-list,
+  .q-and-a,
+  hr {
+    display: none;
+  }
+
+  .offers-heading__list {
+    gap: 3rem;
+    margin-right: 0;
+  }
+
+  .offers-heading__list li {
+    font-size: 4rem;
+  }
+
+  .select-wrapper {
+    display: none;
+  }
+  .refresh button {
+    font-size: 2.5rem;
+  }
+
+  .offers-responsive {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .offers-responsive button {
+    background-color: #f3f3f3;
+
+    border-radius: 50px;
+    padding: 1.6rem 4rem;
+  }
+
+  .offer-images__additional {
+    display: none;
+  }
+
+  .demo_sign {
+    font-size: 2rem;
+
+    padding: 1.4rem 2rem;
+  }
+
+  .add-to-favorites {
+    bottom: 2.5rem;
+    right: 0;
+  }
+
+  .offer-header {
+    width: 95%;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .seller-image {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .seller-info {
+    font-size: 2rem;
+  }
+
+  .offer-images__main {
+    margin-bottom: 1.2rem;
+  }
+
+  .expiry {
+    font-size: 2rem;
+  }
+
+  .buy_sign {
+    padding: 1rem 1.8rem;
+    margin-right: 75%;
+
+    font-size: 1.6rem;
+  }
+
+  .offer__info {
+    width: 96%;
+    font-size: 2rem;
+  }
+
+  .offer__title {
+    margin: auto;
+    font-size: 2rem;
+    line-height: 2.6rem;
+
+    margin-bottom: 2.7rem;
+  }
+
+  .received-offers {
+    margin-bottom: 1.2rem;
+  }
+  .offer-comments {
+    padding-bottom: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .offer__additional-info {
+    font-size: 1.6rem;
+
+    gap: 8.3rem;
+
+    margin-bottom: 3rem;
+  }
+
+  .offer__buttons button {
+    font-size: 2.6rem;
+
+    padding: 2.5rem;
+  }
+
+  .offers__list {
+    gap: 0;
+  }
+
+  .pagination {
+    display: none;
+  }
+
+  .pagination-responsive {
+    font-family: "Exo";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+    font-size: 4.5rem;
+  }
+
+  .pagination-responsive__numbers {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .offers__list {
+    margin-bottom: 4.4rem;
+  }
+
+  .offer-card:last-of-type {
+    display: none;
+  }
 }

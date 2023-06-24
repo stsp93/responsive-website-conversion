@@ -48,6 +48,10 @@ main {
   justify-content: space-between;
 }
 
+.nav__button {
+  display: none;
+}
+
 .search-bar {
   position: relative;
 }
@@ -228,6 +232,10 @@ main {
   padding: 1.2rem 4.5rem;
 }
 
+.filter-button {
+  display: none;
+}
+
 /* filters */
 
 .filters {
@@ -372,6 +380,10 @@ hr {
 }
 .offers-heading__container .refresh {
   margin: 0;
+}
+
+.offers-responsive {
+  display: none;
 }
 
 #newest {
@@ -610,6 +622,10 @@ button.send-offer {
 
 /* pagination */
 
+.pagination-responsive {
+  display: none;
+}
+
 .pagination {
   display: flex;
   align-items: center;
@@ -662,6 +678,10 @@ aside hr {
   gap: 1rem;
 
   margin-bottom: 2.4rem;
+}
+
+.aside-links-responsive {
+  display: none;
 }
 
 aside .cta {
