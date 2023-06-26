@@ -24,6 +24,10 @@
     font-size: 50%;
   }
 
+  .nav__links {
+    overflow: scroll;
+  }
+
   .contacts,
   .search-bar {
     display: none;
@@ -34,21 +38,11 @@
   }
 
   .header__main {
-    padding: 0 5%;
-  }
-}
-
-@media screen and (max-width: 780px) {
-  html {
-    font-size: 43.75%;
+    padding: 0 6%;
   }
 }
 
 @media screen and (max-width: 680px) {
-  html {
-    font-size: 37.5%;
-  }
-
   .ad,
   aside {
     display: none;
@@ -69,28 +63,53 @@
 
 @media screen and (max-width: 390px) {
   .header__main {
-    padding: 5rem 4rem;
+    display: flex;
   }
 
   .logo {
-    width: 28.5rem;
+    width: 22rem;
   }
 
   .nav__links {
-    overflow: scroll;
+    padding: 1.4rem 0;
   }
 
   .nav__links img {
-    width: 2.5rem;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .nav__links li {
+    font-size: 1.2rem;
+    padding: 0.2rem 2rem;
+  }
+
+  .header__nav {
+    margin-bottom: 2rem;
   }
 
   .inquiry {
     flex-direction: column-reverse;
-    margin-bottom: 1.2rem;
+    justify-content: center;
+    gap: 2.3rem;
+    font-size: 1.5rem;
+    margin-bottom: 1.1rem;
+  }
+
+  .inquiry__cta {
+    width: 92%;
+    padding: 1.4rem;
+
+    font-size: 2rem;
+    justify-content: center;
   }
 
   .inquiry__text {
-    width: 90%;
+    width: 92%;
+  }
+
+  .inquiry strong {
+    font-size:2.3rem
   }
 
   .inquiry__title {
@@ -108,18 +127,6 @@
 
   .filters {
     display: none;
-  }
-
-  .inquiry p {
-    font-size: 2rem;
-  }
-
-  .inquiry__cta {
-    width: 90%;
-    padding: 1.8rem;
-
-    font-size: 2.5rem;
-    justify-content: center;
   }
 
   .content-container {
@@ -166,9 +173,6 @@
     font-size: 4rem;
   }
 
-  .select-wrapper {
-    display: none;
-  }
   .refresh button {
     font-size: 2.5rem;
   }
@@ -183,6 +187,17 @@
 
     border-radius: 50px;
     padding: 1.6rem 4rem;
+  }
+
+  .offers-responsive button:hover {
+    border: 1px solid #008AEE; 
+    background-color: rgba(23, 141, 235, 0.15);
+  }
+
+  .additional-buttons button{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #008AEE;
   }
 
   .offer-images__additional {
