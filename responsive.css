@@ -25,6 +25,21 @@
     font-size: 50%;
   }
 
+  .header__main {
+    flex-direction: column;
+  }
+
+  .logo-container {
+    width: 100%;
+    padding: 1.6rem 4% 0 4%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav__button {
+    display: block;
+  }
+
   .nav__links {
     overflow: scroll;
   }
@@ -32,14 +47,6 @@
   .contacts,
   .search-bar {
     display: none;
-  }
-
-  .nav__button {
-    display: block;
-  }
-
-  .header__main {
-    padding: 0 6%;
   }
 }
 
@@ -67,12 +74,16 @@
 }
 
 @media screen and (max-width: 390px) {
-  .header__main {
-    display: flex;
-  }
-
   .logo {
     width: 22rem;
+  }
+
+  .header__main {
+    min-height: 7rem;
+  }
+
+  .header__nav {
+    margin-bottom: 1.6rem;
   }
 
   .nav__links {
@@ -85,13 +96,11 @@
   }
 
   .nav__links li {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     padding: 0.2rem 2rem;
   }
 
-  .header__nav {
-    margin-bottom: 2rem;
-  }
+
 
   .inquiry {
     flex-direction: column-reverse;
