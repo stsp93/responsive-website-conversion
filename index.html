@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="responsive.css" />
+    <script defer src="script.js"></script>
   </head>
   <body>
     <div class="content">
@@ -34,7 +35,9 @@
             </div>
           <div class="search-bar">
             <input type="text" placeholder="Търсене..." />
-            <img class="magnifier" src="images/magnifier.png" alt="magnifier" />
+            <button>
+                <img class="magnifier" src="images/magnifier.png" alt="magnifier" />
+            </button>
           </div>
           <div class="contacts">
             <a href="#" class="user"><span>E</span></a>
@@ -115,9 +118,8 @@
           <h2 class="inquiry__title">Направи запитване лесно и бързо!</h2>
           <div class="inquiry__wrapper">
             <p><strong>1821</strong> активни клиентски запитвания</p>
-            <button>
+            <button class="filter-button">
                 <img
-                class="filter-button"
                 src="images/documentfilter.png"
                 alt="filter"
               />
