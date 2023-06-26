@@ -318,13 +318,18 @@
     justify-content: center;
     gap: 2rem;
 
-    font-size: 4.5rem;
+    font-size: 2.5rem;
   }
 
   .pagination-responsive__numbers {
     display: flex;
     gap: 2rem;
   }
+
+  .pagination-responsive__numbers li:hover {
+    color: var(--light-blue);
+    cursor: pointer;
+  } 
 
   .offers__list {
     margin-bottom: 4.4rem;
