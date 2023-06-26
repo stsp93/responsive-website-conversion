@@ -138,8 +138,6 @@ main {
   border-radius: 5rem;
   padding: 0.5rem 1.9rem;
 
-  font-weight: 600;
-
   font-size: 1.8rem;
   line-height: 2.6rem;
 }
@@ -189,7 +187,13 @@ main {
   align-items: center;
   justify-content: space-between;
 
-  margin-bottom: 3.2rem;
+  color: #535353;
+
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 1.8rem;
+
+  margin-bottom: 1.7rem;
 }
 
 .inquiry__title {
@@ -200,16 +204,6 @@ main {
 
   color: var(--light-text);
   margin-bottom: 1.6rem;
-}
-
-.inquiry {
-  color: #535353;
-
-  font-weight: 500;
-  font-size: 2rem;
-  line-height: 1.8rem;
-
-
 }
 
 .inquiry strong {
@@ -247,7 +241,7 @@ main {
   border-radius: 2rem;
   padding: 1.4rem 2.8rem 2.2rem 2.8rem;
 
-  margin-bottom: 2.9rem;
+  margin-bottom: 2.7rem;
 }
 
 .filters__title-container {
@@ -354,18 +348,13 @@ select {
 .content-container {
   display: flex;
   align-items: flex-start;
-  gap: 3.4rem;
-}
-
-hr {
-  color: #c1c1c1;
-  height: 0.5px;
 }
 
 /* offers */
 
 .offers {
-  width: 100%;
+  width: 80%;
+  /* margin-left: 1rem; */
 }
 
 .offers-heading {
@@ -374,13 +363,15 @@ hr {
 
   margin-bottom: 1.6rem;
 
-  padding: 0 1.7rem 0 1.7rem;
+  /* padding: 0 1.7rem 0 1.7rem; */
 }
 
 .offers-heading__container {
   display: flex;
   gap: 2rem;
   align-items: center;
+
+  margin-left: 4rem;
 }
 .offers-heading__container .refresh {
   margin: 0;
@@ -399,17 +390,17 @@ hr {
   align-items: center;
   gap: 1.9rem;
   margin-right: 2rem;
+
+  color: var(--blue, #008aee);
+  font-size: 2.6rem;
+  font-family: "Exo 2";
+  font-weight: 700;
 }
 
 .offers-heading__list li {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-
-  color: var(--blue, #008aee);
-  font-size: 2.6rem;
-  font-family: "Exo 2";
-  font-weight: 700;
 }
 
 /* offer cards */
@@ -420,6 +411,7 @@ hr {
   row-gap: 1.6rem;
 
   margin-bottom: 6.2rem;
+  margin-left: 2rem;
 }
 
 .offer-card {
@@ -427,7 +419,7 @@ hr {
 }
 
 .offer-card:hover {
-  box-shadow: 2px 3px 2rem rem rgba(0, 0, 0, 0.15);
+  box-shadow: 2px 3px 2rem 0 rgba(0, 0, 0, 0.15);
   border-radius: 2rem;
 }
 
@@ -669,7 +661,7 @@ button.send-offer {
 /* aside */
 
 aside {
-  width: 23.7rem;
+  width: 20%;
 }
 
 aside hr {
@@ -706,6 +698,10 @@ aside .cta {
   gap: 1.5rem;
 
   padding: 1.4rem 0;
+  border-top:0.5px solid #c1c1c1 ;
+  border-bottom:0.5px solid #c1c1c1 ;
+
+  margin-bottom: 1.5rem;
 }
 
 .aside-list li a,

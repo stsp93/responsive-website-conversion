@@ -7,6 +7,7 @@
   .offers__list {
     display: flex;
     flex-direction: column;
+    margin-left: 0;
   }
   .offer-card {
     display: flex;
@@ -46,6 +47,10 @@
   .ad,
   aside {
     display: none;
+  }
+
+  .offers {
+    width: unset;
   }
 
   .offers-heading {
@@ -91,9 +96,9 @@
   .inquiry {
     flex-direction: column-reverse;
     justify-content: center;
-    gap: 2.3rem;
+    gap: 1.9rem;
     font-size: 1.5rem;
-    margin-bottom: 1.1rem;
+    margin-bottom: 0.5rem;
   }
 
   .inquiry__cta {
@@ -118,6 +123,7 @@
 
   .inquiry__wrapper {
     display: flex;
+    align-items: center;
     justify-content: space-between;
   }
 
@@ -129,6 +135,8 @@
     display: none;
   }
 
+  /* content */
+
   .content-container {
     flex-direction: column;
     align-items: center;
@@ -136,7 +144,9 @@
 
   aside {
     display: block;
-    width: 90%;
+    width: 92%;
+    
+    margin-bottom: 1.6rem;
   }
 
   .aside-links {
@@ -154,8 +164,8 @@
   }
 
   .aside-links .cta {
-    font-size: 2.5rem;
-    padding: 2.7rem 4rem;
+    font-size: 2rem;
+    padding: 1.7rem 2.5rem;
   }
 
   .aside-list,
@@ -165,16 +175,27 @@
   }
 
   .offers-heading__list {
-    gap: 3rem;
+    gap: 2.6rem;
+    font-size: 3.1rem;
     margin-right: 0;
   }
 
-  .offers-heading__list li {
-    font-size: 4rem;
+  .refresh button {
+    font-size: 1.7rem;
+  }
+  .offers-heading {
+      align-items: center;
+      justify-content: center;
+
+      margin-bottom: 0.5rem;
   }
 
-  .refresh button {
-    font-size: 2.5rem;
+  .offers-heading__container {
+    margin-left: 0;
+  }
+
+  .offers-heading__container .select-wrapper {
+    display: none;
   }
 
   .offers-responsive {
@@ -186,7 +207,7 @@
     background-color: #f3f3f3;
 
     border-radius: 50px;
-    padding: 1.6rem 4rem;
+    padding: 1.2rem 3rem;
   }
 
   .offers-responsive button:hover {
@@ -200,84 +221,77 @@
     border: 1px solid #008AEE;
   }
 
+
+  .offer-card {
+    padding-bottom: 1.7rem;
+  }
+
   .offer-images__additional {
     display: none;
   }
 
   .demo_sign {
-    font-size: 2rem;
-
-    padding: 1.4rem 2rem;
+    font-size: 1.4rem;
+    padding: 0.7rem 1.3rem;
   }
 
   .add-to-favorites {
-    bottom: 2.5rem;
+    bottom: 2rem;
     right: 0;
   }
 
   .offer-header {
     width: 95%;
     padding-bottom: 2rem;
-    margin-bottom: 2rem;
-  }
-
-  .seller-image {
-    width: 4rem;
-    height: 4rem;
-  }
-
-  .seller-info {
-    font-size: 2rem;
   }
 
   .offer-images__main {
-    margin-bottom: 1.2rem;
-  }
-
-  .expiry {
-    font-size: 2rem;
+    margin-bottom: 0.5rem;
   }
 
   .buy_sign {
-    padding: 1rem 1.8rem;
-    margin-right: 75%;
+    padding: 0.6rem 1.5rem;
+    margin-right: 77%;
 
-    font-size: 1.6rem;
+    font-size: 1.2rem;
   }
 
   .offer__info {
-    width: 96%;
-    font-size: 2rem;
+    width: 98%;
+    font-size: 1.5rem;
   }
 
   .offer__title {
-    margin: auto;
-    font-size: 2rem;
-    line-height: 2.6rem;
+    font-size:1.5rem;
+    line-height: 2rem;
 
-    margin-bottom: 2.7rem;
-  }
-
-  .received-offers {
-    margin-bottom: 1.2rem;
-  }
-  .offer-comments {
-    padding-bottom: 3rem;
     margin-bottom: 2rem;
   }
 
+  .received-offers {
+    margin-bottom: 0.5rem;
+  }
+  .offer-comments {
+    padding-bottom: 1.8rem;
+    margin-bottom: 1.3rem;
+  }
+
   .offer__additional-info {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
 
-    gap: 8.3rem;
+    gap: 4.8rem;
 
-    margin-bottom: 3rem;
+    margin-bottom: 1.9rem;
+  }
+
+  .offer__additional-info--container p{
+    margin-bottom: 0.5rem;
   }
 
   .offer__buttons button {
-    font-size: 2.6rem;
+    font-size: 2rem;
 
-    padding: 2.5rem;
+    padding: 1.7rem 2.5rem;
   }
 
   .offers__list {
